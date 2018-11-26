@@ -1,4 +1,4 @@
-# portfolio3
+# portfolio
 
 ポートフォリオです。カフェのページを作りました。
 github pagesで公開しています。是非ご覧になってください。
