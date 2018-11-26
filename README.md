@@ -2,4 +2,4 @@
 
 ポートフォリオです。カフェのページを作りました。
 github pagesで公開しています。是非ご覧になってください。
-URL→https://marudan55.github.io/portfolio3
+URL→https://marudan55.github.io/portfolio-cafe/
