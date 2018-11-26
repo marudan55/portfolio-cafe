@@ -1,7 +1,7 @@
 /*menu-bar*/
 $(window).scroll(function() {
   var now = $(this).scrollTop();
-  if (now > 600) {
+  if (now > 100) {
     $(".menu-bar").fadeIn("slow");
   } else {
     $('.menu-bar').fadeOut('slow');

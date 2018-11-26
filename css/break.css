@@ -7,7 +7,7 @@
 
   /*初期設定*/
   h3 {
-    margin-top: 200px;
+    margin-top: 120px;
   }
 
   .br-break {
@@ -72,6 +72,10 @@
     height: 500px;
   }
 
+  /*ニュース*/
+  a.twitter-timeline {
+    width: 600px;
+  }
 
   /*access*/
 
@@ -87,7 +91,7 @@
 
   /*初期設定*/
   h3 {
-    margin-top: 300px;
+    margin-top: 180px;
   }
 
   .br-break {
@@ -109,6 +113,9 @@
     height: 90px;
   }
 
+  #menu-btn {
+    display: none;
+  }
 
   .title-logo p a {
     position: fixed;
@@ -134,7 +141,7 @@
     display: block;
     position: fixed;
     top: 24px;
-    right: 60px;
+    right: 24px;
     z-index: 2;
   }
 
@@ -201,7 +208,7 @@
 
   /*初期設定*/
   h3 {
-    margin-top: 400px;
+    margin-top: 200px;
   }
 
   .br-break {
@@ -220,6 +227,11 @@
   /*menu-bar*/
   .menu-bar {
     height: 90px;
+  }
+
+  /*メニューボタン*/
+  #menu-btn {
+    display: none;
   }
 
   /*title-logo*/
@@ -260,7 +272,7 @@
     display: block;
     position: fixed;
     top: 24px;
-    right: 60px;
+    right: 24px;
     z-index: 2;
   }
 

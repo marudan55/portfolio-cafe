@@ -28,7 +28,7 @@ h2 {
 
 h3 {
   font-size: 25px;
-  padding-top: 50px;
+  padding-top: 20px;
   position: relative;
   display: inline-block;
   padding: 0 55px;
@@ -78,6 +78,10 @@ body {}
   text-align: center;
 }
 
+.under-slick {
+  padding-top: 30px;
+}
+
 /*ヘッダー*/
 header {
   width: 100%;
@@ -120,15 +124,20 @@ header {
 
 .shop-int {
   position: absolute;
+  display: block;
+  width: 90%;
+  max-width: 1000px;
   text-align: center;
   margin: 0 auto;
+  padding: 30px 10px;
   color: #fff;
-  text-shadow: 1px 1px 1px #fff;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
 }
 
 .shop-int h4 {
@@ -248,7 +257,6 @@ header {
 
 /*店舗情報*/
 #shop_info {
-  margin-bottom: 100px;
   width: 100%;
 }
 
@@ -296,6 +304,8 @@ header {
 
 /*ニュース*/
 .news {
+  display: block;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -325,10 +335,6 @@ header {
   border-radius: 50%;
   box-shadow: var(--main-shadow);
   box-sizing: border-box;
-}
-
-.menu-slick ul.slick-dots {
-  padding-bottom: ;
 }
 
 .menu-slick .slick-slide:not(.slick-center) {
@@ -417,10 +423,6 @@ li#tab3 table {
 
 .ggmap {
   text-align: center;
-}
-
-#access {
-  margin-bottom: 100px;
 }
 
 .ggmap iframe {
