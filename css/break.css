@@ -4,7 +4,6 @@
 /*ブレークポイント　600px~960px（タブレット）*/
 @media screen and (min-width:600px) and (max-width:960px) {
 
-
   /*初期設定*/
   h3 {
     margin-top: 120px;
@@ -14,42 +13,38 @@
     display: none;
   }
 
-
   /*header*/
   #page-top img {
     width: 100%;
     height: 900px;
   }
 
-
   /*menu-bar*/
   .menu-bar {
     height: 60px;
   }
 
-
   /*title-logo*/
-  .title-logo p a {
-    top: 6px;
+  .title-logo img {
+    position: fixed;
+    top: -53px;
+    left: -10px;
   }
-
 
   /*menu-btn*/
   #menu-btn {
     top: 11px;
   }
 
-
   /*sns*/
   #modal-menu .sns ul {
     top: 7px;
     right: 80px;
-    }
+  }
 
   #modal-menu .sns a {
     padding-left: 20px;
   }
-
 
   /*tab-menu*/
   ul.tab {
@@ -64,9 +59,7 @@
     display: table-cell;
   }
 
-
   /*shop-info*/
-
   /*shop-info:img*/
   .slick-photo img, .taikai-photo img {
     height: 500px;
@@ -78,7 +71,6 @@
   }
 
   /*access*/
-
   /*access: map*/
   iframe {
     width: 600px;
@@ -108,7 +100,6 @@
     height: 1200px;
   }
 
-
   .menu-bar {
     height: 90px;
   }
@@ -117,24 +108,15 @@
     display: none;
   }
 
-  .title-logo p a {
+/* タイトルロゴ */
+  .title-logo img {
     position: fixed;
-    top: 18px;
-    left: 24px;
-    font-size: 30px;
-    color: #fff;
-    font-weight: bold;
-    z-index: 99;
+    top: -56px;
+    left: 5;
+    width: 250px;
   }
 
-  /*モーダルウィンドウ*/
-  #modal-menu, #modal-overlay {
-    width: 60%;
-  }
 
-  #menu-btn {
-    top: 24px;
-  }
 
   /*モーダルメニュー（大画面用）*/
   #modal-menu-big {
@@ -165,18 +147,16 @@
     border-bottom: 2px solid #fff;
   }
 
-
   /*店舗情報*/
   .slick-photo img, .taikai-photo img {
     height: 500px;
   }
 
-
-/*ニュース*/
-.news a {
-  width: 500px;
-  height: 800px;
-}
+  /*ニュース*/
+  .news a {
+    width: 500px;
+    height: 800px;
+  }
 
   /*メニュー*/
   ul.tab {
@@ -194,7 +174,6 @@
   ul.panel {
     max-width: 650px;
   }
-
 
   /*アクセス*/
   iframe {
@@ -218,6 +197,7 @@
   .menu-slick {
     width: 950px;
   }
+
   /*header*/
   #page-top img {
     width: 100%;
@@ -234,16 +214,13 @@
     display: none;
   }
 
-  /*title-logo*/
-  .title-logo p a {
-    position: fixed;
-    top: 18px;
-    left: 24px;
-    font-size: 30px;
-    color: #fff;
-    font-weight: bold;
-    z-index: 99;
-  }
+  /* タイトルロゴ */
+    .title-logo img {
+      position: fixed;
+      top: -70px;
+      left: 5;
+      width: 280px;
+    }
 
   /*modal-window*/
   #modal-menu, #modal-overlay {
@@ -297,14 +274,11 @@
     border-bottom: 2px solid #fff;
   }
 
-
   /*shop-info*/
-
   /*shop-info:img*/
   .slick-photo img, .taikai-photo img {
     height: 500px;
   }
-
 
   /*menu*/
   /*tab-menu*/
