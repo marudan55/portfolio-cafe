@@ -97,7 +97,7 @@
   /*ヘッダー*/
   #page-top img {
     width: 100%;
-    height: 1200px;
+    height: auto;
   }
 
   .menu-bar {
@@ -201,7 +201,7 @@
   /*header*/
   #page-top img {
     width: 100%;
-    height: 1300px;
+    height: auto;
   }
 
   /*menu-bar*/
