@@ -70,12 +70,11 @@
     width: 600px;
   }
 
-  /*access*/
-  /*access: map*/
-  iframe {
-    width: 600px;
+  .ggmap {
     height: 500px;
   }
+
+
 }
 
 /*ブレークポイント　960px~1280（パソコン小画面）*/
@@ -176,8 +175,7 @@
   }
 
   /*アクセス*/
-  iframe {
-    width: 600px;
+  .ggmap {
     height: 500px;
   }
 }
@@ -300,8 +298,7 @@
   }
 
   /*access*/
-  iframe {
-    width: 600px;
+  .ggmap {
     height: 500px;
   }
 }
