@@ -15,8 +15,8 @@ $(window).scroll(function() {
 $(function(){
   $('.slick-photo').slick({
     autoplay: true,
-    autoplaySpeed: 5000,
-    speed: 1000,
+    autoplaySpeed: 3000,
+    speed: 1500,
     dots: true,
     swipe: true
     });
@@ -28,7 +28,7 @@ $(function(){
     dots: true,
     autoplay: true,
     autoplaySpeed: 3000,
-    speed: 1000,
+    speed: 1500,
     centerMode: true,
     slidesToShow: 3,
     slidesToScroll: 3,
