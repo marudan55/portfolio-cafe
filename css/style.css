@@ -311,7 +311,7 @@ header {
   display: block;
   margin: 0 auto;
   text-align: center;
-  width: 85%;
+  width: 80%;
   max-width: 700px;
 }
 
@@ -320,6 +320,8 @@ header {
   margin-bottom: 20px;
 }
 
+
+/*　メニュースリック　*/
 .menu-slick {
   width: 100%;
   margin: 0 auto;
@@ -337,10 +339,15 @@ header {
   margin: 0 auto;
   margin-bottom: 10px;
   width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  box-shadow: var(--main-shadow);
+  height: auto;
   box-sizing: border-box;
+}
+
+.menu-slick p {
+  display: block;
+  text-align: center;
+  color: var(--main-color);
+  font-weight: bold;
 }
 
 .menu-slick .slick-slide:not(.slick-center) {
